@@ -1,0 +1,48 @@
+// Michael Lenort, 19947059
+
+Aufgabe:
+
+
+programm stadt.dat gebiet.dat strasse.dat stadtname
+
+Die Stadt stadtname wird (wegen einer Katastrophe) evakuiert, d.h. aus
+der Liste gelöscht.  Die Einwohner verteilen sich auf die
+Nachbarstädte je nach Größe der Nachbarstadt, d.h. eine doppelt so
+große Nachbarstadt bekommt doppelt so viele Flüchtlinge.  Gib die neue
+Stadtliste in die Datei stadtneu.dat aus.
+
+
+
+
+
+
+// First, lets get all cities.
+
+[x] - done
+
+// All regions
+
+[x] - done
+
+
+// Destroy a city, therefor, find it first and get the population size
+[x] - done
+
+// Remove all citizens from the city and move all of them to the neighbor
+// cities. Get all neighbor cities defined by region and get from that
+// all cities that have a direct route to each other inside the street.dat
+
+[x] - done
+
+// Based on the population size of the neighbor cities, move the population
+// to a neighbor city. 
+
+[x] - done 
+
+// Read dynamic input values and send a warning if an ID wasn't found
+// in the city database/struct.
+
+[x] - done.
+
+
+

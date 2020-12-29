@@ -1,0 +1,35 @@
+Fix makefile program/programm issue 
+[x]
+
+// ** // 
+Fix Destroyer Function to accept a string for the city
+name instead of the id
+[x]
+
+// ** //
+Redo algorithm for the population size.
+[x]
+
+// ** //
+Give out ALL cities with the new population and remove just the
+city itself thats been destroyed from the list in stadtneu.dat
+[x]
+
+// ** // 
+Remove silly comments
+[x]
+
+
+
+Additional information:
+
+I fixed the issues and changed the algorithm now that i hopefully
+understood the idea behind it better.
+I sort just like before all cities that have direct routes to the city 
+that will get destroyed (both ways).
+Then, i sum the population up from all neighbor cities and for the population size i do:
+newPop = (destroyedCity * neighborCity1) / sum;
+neighborCity1.population = neighborCity1.population + newPop;
+As required, i print now all cities out, except the destroyed one. 
+
+It does seem to match the numbers that were given me in the email.
